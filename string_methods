@@ -1,0 +1,107 @@
+username="   simhachalam    "
+# print(username.strip())
+username="*****simhachalam******"
+# print(username.lstrip('*'))
+username="*****simhachalam******"
+# print(username.strip('*'))
+username="simhachalam******"
+# print(username.rstrip('*'))
+
+# concatenation
+address1= "Flat No 201"
+address2 = "Hitech city"
+# print(address1 +' '+address2)
+address = f"{address1}  {address2} , Hyderabad , Telangana"
+# print(address)
+
+# lower, upper, replace, startswith, endswith, count, enumerate
+
+address1= "Flat No 201"
+lower_address = address1.lower()
+upper_case_address = address1.upper()
+address2 = address1.replace("No","No -")
+
+# start index , stop index, step index
+# for i in range(10,-1,-3):
+#     print(i)
+
+# address1= "FlatNo201"
+        #    0123 45 678
+        #    Flat
+# print(address1[::-2])
+# 102oNtalF
+# 12NaF
+
+# palindrom meaning
+# madam ---> madam --> correct
+# simha ---> ahmis --> not a palindrome
+
+ #plan
+#  1.input_word
+#  2.reverse_word
+#  3.input_word == reverse_word
+#  4. confirmed palindrome
+
+# def palindrome(word):
+#     reverse_word = word[::-1]
+#     if reverse_word == word:
+#         print(f"its a palindrom : {word}: {reverse_word}")
+#     else:
+#         print(f"its not a palindrome:{word}: {reverse_word}")
+
+
+ #plan
+#  1.input_word
+#  2.reverse_word (range)
+#  3.input_word == reverse_word
+#  4. confirmed palindrome
+
+
+
+def palindrome(word):
+    reverse_word=''
+    start_index=len(word)-1
+    for i in range(start_index,-1, -1):
+        reverse_word = reverse_word+word[i]
+    if reverse_word == word:
+        print(f"its a palindrom : {word}: {reverse_word}")
+    else:
+        print(f"its not a palindrome:{word}: {reverse_word}")
+
+
+# palindrome("madam")
+# palindrome("simha")
+# 5
+# simha
+# 01234
+
+# def palindrome(word_1):
+#     reverse_word=""
+#     for index, item in enumerate(reversed(word_1)):
+#         reverse_word = reverse_word+item
+#     if word_1 == reverse_word :
+#         return "Its a palindrome"
+# print(palindrome("simha"))
+
+
+# data="arjun-sarkar"
+# if 'jun' in data:
+#     print("yes it is")
+# else:
+#     print("not contains")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

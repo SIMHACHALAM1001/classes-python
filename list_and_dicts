@@ -1,0 +1,22 @@
+
+data1=['a','b','c']
+# data2=[1,2,4,5,6]
+# print(data)
+# print(data1)
+# print(data2)
+# data=['a','b',1,2,True]
+# print(data[::-2])
+# for index, value in enumerate(data1):
+#     print(index, value)
+data1=['a','b','c','d','e']
+# data1[2:4]=['g','f']
+# print(data1)
+# data1[3]=True
+# print(data1)
+# data1.append('f')
+# data1.append('g')
+# data1.insert(1,'z')
+# data1.remove('g')
+# data1.pop()
+# data1.pop(0)
+# print(data1)
