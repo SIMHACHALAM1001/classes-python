@@ -1,7 +1,7 @@
 tup = ()
 tup1=('a','b','c','d')
 tup2=('a','b',[1,2,3],['lemon','apple'])
-# print(tup2[2][0])
+print(tup2[2][0])
 # print(tup2[3][1])
 # new_tuple = tup2[0:2]
 # print(new_tuple)
